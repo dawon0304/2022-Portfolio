@@ -1,0 +1,66 @@
+*{
+  margin:0;
+}
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: lightsteelblue;
+}
+
+
+header{
+  width:100%;
+  height: 100vh;
+  background-color: #f39c12;
+}
+
+header .logo{
+  margin-top:150px;
+}
+
+header img{
+  width: 280px;
+  height: 280px;
+  border: 4px solid oldlace;
+  border-radius: 50%;
+}
+
+.menue{
+  position:absolute;
+  right: 50px;
+  padding:10px;
+}
+
+.menue ul{
+  display: flex;
+  margin:15px;
+}
+
+.menue ul li{
+  border: 2px solid #ecf0f1;
+  border-radius: 25px;
+  margin:5px;
+  justify-content: space-between;
+  cursor: pointer;
+  padding:10px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.menue ul li:hover{
+  background-color: #ecf0f1;
+  color:#f39c12;
+}
+
+.myself{
+  padding:50px;
+}
+.myself span{
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
